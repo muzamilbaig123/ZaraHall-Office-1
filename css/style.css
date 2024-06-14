@@ -7,6 +7,9 @@
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
 }
+html{
+    scroll-behavior: smooth;
+}
 body.dark{
     --bg-black-900: #151515;
     --bg-black-100: #222222;
@@ -381,7 +384,7 @@ h3.my-profession {
 .about .about-content .personal-info .info-item p {
     font-size: 16px;
     font-weight: 600;
-    padding: 10px 0;
+    padding: 20px 0;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
 }
@@ -463,6 +466,9 @@ h3.my-profession {
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
+}
+.contact-center-yes{
+    justify-content: center;
 }
 
 .about .about-content .timeline-box {
@@ -726,7 +732,7 @@ h3.my-profession {
     }
     .home-img {
         max-width: 250px;
-        height: 80vh;
+        height: auto;
         margin-top: 120px;
     }
     .home-img img {
@@ -813,6 +819,10 @@ h3.my-profession {
         text-align: left !important;
         left: -30px;
         width: 110%;
+    }
+    .my-width-yes {
+        width: 162%;
+        left: -60px;
     }
 }
 
